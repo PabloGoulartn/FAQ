@@ -15,13 +15,13 @@ buttons.forEach(function (button, index) {
 
 function showText(button, index) {
     paragraphs[index].style.display = 'block';
-    button.src = '/assets/images/icon-minus.svg';
+    button.src = 'assets/images/icon-minus.svg';
     h2s[index].style.color = 'black';
 }
 
 function hideText(button, index) {
     paragraphs[index].style.display = 'none';
-    button.src = '/assets/images/icon-plus.svg';
+    button.src = 'assets/images/icon-plus.svg';
     h2s[index].style.color = '#341635';
 }
 
